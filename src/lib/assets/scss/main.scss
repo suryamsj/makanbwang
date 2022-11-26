@@ -1,0 +1,242 @@
+// Variable
+$background:#D2DBEE;
+$dark:#040320;
+$hover:#b51818;
+
+// Body
+body {
+    font-family: 'Poppins', sans-serif;
+    background: $background;
+    font-size: 18px;
+}
+
+// Main
+main {
+    max-width: 992px;
+    margin: 0 auto;
+
+    @media (max-width: 991.98px) {
+        width: 100%;
+    }
+}
+
+// Header
+.header {
+    padding: 2rem 0;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: $dark;
+        transition: .3s ease-in-out .3s;
+
+        &:hover {
+            color: $hover;
+        }
+    }
+
+    h1 {
+        margin-bottom: 0;
+        font-weight: 800;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+// Section
+section {
+    min-height: 100vh;
+
+    .section_title {
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .box_inset {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+        background: $background;
+        padding: 2rem;
+        box-shadow: inset 5px 5px 8px #BFC7D9, inset -5px -5px 8px #E5EFFF;
+        margin-bottom: 1.5rem;
+
+        a {
+            text-decoration: none;
+            color: $dark;
+            transition: .3s ease-in-out .3s;
+
+            &:hover {
+                color: $hover;
+            }
+        }
+
+        img {
+            margin: 1rem 0;
+        }
+
+        ul {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1.3rem;
+        }
+    }
+
+    .box {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+        background: $background;
+        padding: 2rem;
+        box-shadow: 5px 5px 8px #BFC7D9, -5px -5px 8px #E5EFFF;
+        margin-bottom: 1.5rem;
+
+        .thumb {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            margin-bottom: 1.3rem;
+            border-radius: 10px;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        .step {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .box_title {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+        background: $background;
+        padding: .8rem 1rem;
+        box-shadow: 5px 5px 8px #BFC7D9, -5px -5px 8px #E5EFFF;
+        margin-bottom: 1rem;
+
+        h2 {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+            font-weight: 600;
+        }
+    }
+}
+
+// Section food
+.food {
+    margin-top: 1rem;
+
+    a {
+        text-decoration: none;
+        color: $dark;
+        transition: .1s ease-in-out .1s;
+
+        &:hover {
+            color: $hover;
+        }
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+        background: $background;
+        box-shadow: inset 5px 5px 8px #BFC7D9, inset -5px -5px 8px #E5EFFF;
+        margin-bottom: 1.5rem;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+
+        h1 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        .badge {
+            font-weight: 500;
+            padding: .5rem 1rem;
+            color: $dark;
+            box-shadow: 5px 5px 8px #BFC7D9, -5px -5px 8px #E5EFFF;
+            margin-right: 10px;
+        }
+    }
+
+    .badge {
+        font-weight: 500;
+        padding: .5rem 1rem;
+        color: $dark;
+        box-shadow: inset 5px 5px 8px #BFC7D9, inset -5px -5px 8px #E5EFFF;
+        margin: 10px 10px 10px 0;
+    }
+}
+
+// Section food detailt
+.detail_food {
+    .badge {
+        font-weight: 500;
+        padding: .5rem 1rem;
+        color: $dark;
+        box-shadow: 5px 5px 8px #BFC7D9, -5px -5px 8px #E5EFFF;
+        margin-right: 10px;
+    }
+
+    .need_item {
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+
+    @media (max-width: 991.98px) {
+        .section_title {
+            text-align: center;
+        }
+
+        .badge {
+            width: 30.4%;
+
+            &:last-child {
+                margin-top: 1rem;
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Footer
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: $dark;
+
+        &:hover{
+            color: $hover;
+        }
+    }
+
+    i {
+        color: #ff5b5b;
+    }
+}
