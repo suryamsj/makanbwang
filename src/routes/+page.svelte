@@ -4,6 +4,10 @@
 
 <svelte:head>
     <title>MakanBwang</title>
+    <meta
+        name="description"
+        content="MakanBwang adalah website yang berisi resep makan, yang dimana resep tersebut diambil dari API."
+    />
 </svelte:head>
 
 <section class="food">

@@ -4,7 +4,8 @@
 </script>
 
 <svelte:head>
-    <title>MakanBwang</title>
+    <title>MakanBwang - {data.results.title}</title>
+    <meta name="description" content={data.results.desc} />
 </svelte:head>
 
 <section class="detail_food">

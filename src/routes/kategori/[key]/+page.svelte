@@ -2,6 +2,10 @@
     export let data;
 </script>
 
+<svelte:head>
+    <title>MakanBwang</title>
+</svelte:head>
+
 <section class="food">
     <div class="container">
         <div class="row">
