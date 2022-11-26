@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <a href="https://makanbwang.netlify.app">Demo</a>
+  <a href="https://makanbwang.vercel.app/">Demo</a>
 </div>
 
 <h1 align="center">Makanbwang</h1>
