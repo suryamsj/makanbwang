@@ -79,6 +79,7 @@
                                     {#each data.results.needItem as item}
                                         <div class="box_title">
                                             <img
+                                                class="img-fluid"
                                                 src={item.thumb_item}
                                                 alt="Gambar Item"
                                             />
